@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+   
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../Assets/pexels-maxyne-barcel-10402282\ 1.png");
+    /* We will use background-attachment: fixed; becausw thebackground-image that will not scroll with the page (fixed):*/
+    background-attachment: fixed;
+    background-size: cover;
+
+  }
+
+ .navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+    margin-top: 35px;
+    
+
+ }
+ nav ul li{
+    list-style: none;
+    
+
+ }
+ a{
+   color: #ffc233;
+   text-decoration: none;
+ }
+
+ .list {
+   display: flex;
+   align-items: center;
+   gap: 85px;
+   padding: 20px 80px;
+    
+
+   list-style: none;
+   font-family: "Red Rose";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #ffc233;
+ }
+ 
+
+ 
+
+ .logo,
+.list-item {
+  cursor: pointer;
+}
+ .btn-order{
+    background-color: #ff505f;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    font-family: "Red Rose";
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  
+
+
+ }
+
+ .logo, .list-items{
+    cursor: pointer;
+
+ }
+
+  
+.hero {
+   max-width: 1154px;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 119px;
+ }
+ 
+ .hero-heading {
+   font-family: "Dela Gothic One", cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 104px;
+   line-height: 114px;
+   /* or 110% */
+   color: #ffc233;
+ }
+ 
+ .btn-Read_our_content{
+    background-color: #ff505f;
+    border: none;
+    color: #ffff;
+    padding: 10px 20px;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 64px;
+ }
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
